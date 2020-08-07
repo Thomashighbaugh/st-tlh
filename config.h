@@ -1,8 +1,4 @@
-/*  ____ _____  */
-/* |  _ \_   _|  Derek Taylor (DistroTube) */
-/* | | | || |  	 http://www.youtube.com/c/DistroTube */
-/* | |_| || |  	 http://www.gitlab.com/dwt1/ */
-/* |____/ |_|  	 */ 
+
 
 /* See LICENSE file for copyright and license details. */
 /* appearance */
@@ -12,10 +8,10 @@
  * Arch repos and is listed as a dependency for this build. JoyPixels is also
  * a hard dependency and makes colored fonts and emojis possible.
  */
-static char *font = "Mononoki Nerd Font:pixelsize=15:antialias=true:autohint=true";
+static char *font = "Mononoki Nerd Font:pixelsize=12:antialias=true:autohint=true";
 static char *font2[] = {
-	"Hack:pixelsize=15:antialias=true:autohint=true",
-	"JoyPixels:pixelsize=15:antialias=true:autohint=true",
+	"Hack:pixelsize=12:antialias=true:autohint=true",
+	"JoyPixels:pixelsize=12:antialias=true:autohint=true",
 };
 static int borderpx = 2;
 
@@ -134,10 +130,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultbg = 1;
+unsigned int defaultbg = 0;
 unsigned int defaultfg = 257;
-static unsigned int defaultcs = 258;
-static unsigned int defaultrcs = 258;
+static unsigned int defaultcs = 7;
+static unsigned int defaultrcs = 257;
 
 /*
  * Default shape of cursor
