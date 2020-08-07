@@ -1,6 +1,6 @@
 # Maintainer:Thomas Leon Highbaugh <thighbaugh@zoho.com>
 pkgname=st-tlh-git
-pkgver=0.8.4.r4.dc95139
+pkgver=0.8.4.r5.61cda8d
 pkgrel=1
 pkgdesc="A patched, themed build of st (the Suckless simple terminal) from tlh based on Derek Taylor's ST."
 arch=(x86_64 i686)
