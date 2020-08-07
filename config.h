@@ -8,12 +8,13 @@
  * Arch repos and is listed as a dependency for this build. JoyPixels is also
  * a hard dependency and makes colored fonts and emojis possible.
  */
-static char *font = "Mononoki Nerd Font:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Share Tech Bold:pixelsize=10:antialias=true:autohint=true";
 static char *font2[] = {
-	"Hack:pixelsize=12:antialias=true:autohint=true",
+	"Hactor Regular:pixelsize=10:antialias=true:autohint=true",
+	"Mononoki Nerd Font:pixelsize=12:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=12:antialias=true:autohint=true",
 };
-static int borderpx = 2;
+static int borderpx = 3;
 
 /*
  * What program is execed by st depends of these precedence rules:
