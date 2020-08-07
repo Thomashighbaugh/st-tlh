@@ -1,6 +1,6 @@
 # Maintainer:Thomas Leon Highbaugh <thighbaugh@zoho.com>
 pkgname=st-tlh-git
-pkgver=0.8.3.r2.2c12f6b
+pkgver=0.8.4.r2.2c12f6b
 pkgrel=1
 pkgdesc="A patched, themed build of st (the Suckless simple terminal) from tlh based on Derek Taylor's ST."
 arch=(x86_64 i686)
@@ -23,7 +23,7 @@ validpgpkeys=()
 
 pkgver() {
   cd "${_pkgname}"
-  printf "0.8.3.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+  printf "0.8.4.r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 build() {
