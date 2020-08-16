@@ -8,9 +8,8 @@
  * Arch repos and is listed as a dependency for this build. JoyPixels is also
  * a hard dependency and makes colored fonts and emojis possible.
  */
-static char *font = "Share Tech Bold:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Sometype Mono Bold:pixelsize=12:antialias=true:autohint=true";
 static char *font2[] = {
-	"Hactor Regular:pixelsize=11:antialias=true:autohint=true",
 	"Mononoki Nerd Font:pixelsize=12:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=18:antialias=true:autohint=true",
 };
@@ -100,7 +99,7 @@ unsigned int alpha = 0xee;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-    "#121115",
+    "#24232a",
 	"#f850ac",
 	"#76dcdd",
 	"#f9f871",
@@ -110,7 +109,7 @@ static const char *colorname[] = {
 	"#f2f2f2",
 
 	/* 8 bright colors */
-	"#24232a",
+	"#555566",
 	"#ff9cff",
 	"#00b6b2",
 	"#f0ee6e",

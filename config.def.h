@@ -1,8 +1,4 @@
-/*  ____ _____  */
-/* |  _ \_   _|  Derek Taylor (DistroTube) */
-/* | | | || |  	 http://www.youtube.com/c/DistroTube */
-/* | |_| || |  	 http://www.gitlab.com/dwt1/ */
-/* |____/ |_|  	 */ 
+
 
 /* See LICENSE file for copyright and license details. */
 /* appearance */
@@ -12,12 +8,12 @@
  * Arch repos and is listed as a dependency for this build. JoyPixels is also
  * a hard dependency and makes colored fonts and emojis possible.
  */
-static char *font = "Mononoki Nerd Font:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Sometype Mono Bold:pixelsize=12:antialias=true:autohint=true";
 static char *font2[] = {
-	"Hack:pixelsize=14:antialias=true:autohint=true",
-	"JoyPixels:pixelsize=14:antialias=true:autohint=true",
+	"Mononoki Nerd Font:pixelsize=12:antialias=true:autohint=true",
+	"JoyPixels:pixelsize=18:antialias=true:autohint=true",
 };
-static int borderpx = 2;
+static int borderpx = 3;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -103,41 +99,41 @@ unsigned int alpha = 0xee;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-    "#282a36",
-	"#f07178",
-	"#c3e88d",
-	"#ffcb6b",
-	"#82aaff",
-	"#c792ea",
-	"#89ddff",
-	"#d0d0d0",
+    "#24232a",
+	"#f850ac",
+	"#76dcdd",
+	"#f9f871",
+	"#00caff",
+	"#6c71c4",
+	"#00eaff",
+	"#f2f2f2",
 
 	/* 8 bright colors */
-	"#434758",
-	"#ff8b92",
-	"#ddffa7",
-	"#ffe585",
-	"#9cc4ff",
-	"#e1acff",
-	"#a3f7ff",
-	"#ffffff",
+	"#555566",
+	"#ff9cff",
+	"#00b6b2",
+	"#f0ee6e",
+	"#61aeee",
+	"#796af5",
+	"#6fffff",
+	"#edeeff",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#282a36",
-	"#bbc5ff",
-	"#d7d7d7",
+	"#18171C",
+	"#edeeff",
+	"#969696",
 };
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultbg = 256;
+unsigned int defaultbg = 0;
 unsigned int defaultfg = 257;
-static unsigned int defaultcs = 258;
-static unsigned int defaultrcs = 258;
+static unsigned int defaultcs = 7;
+static unsigned int defaultrcs = 257;
 
 /*
  * Default shape of cursor
